@@ -1,0 +1,22 @@
+<h1>Beers</h1>
+<ul>
+  <% @beers.each do |beer| %>
+    <li>
+      <%= beer.name %>
+        <ul>
+          <li>
+            <%= beer.name %>
+          </li>
+          <li>
+            <%= beer.type %>
+          </li>
+          <li>
+            <%= beer.size %>
+          </li>
+          <li>
+            <%= beer.price %>
+          </li>
+        </ul>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,6 @@
+<form action="/stores/<%= @store.id %>" method='post'>
+  <input type="hidden" name="_method" value='put'>
+  <%= token_tag %>
+  <input type="text" name='store[name]' value='<%= @store.name %>'>
+  <input type="submit">
+</form>

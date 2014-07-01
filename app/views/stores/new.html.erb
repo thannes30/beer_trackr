@@ -1,0 +1,5 @@
+<form action="/stores/<%= @store.id %>/beers" method="post">
+  <%= token_tag %>
+  <input type="text" name="store[name]">
+  <input type="submit">
+</form>
