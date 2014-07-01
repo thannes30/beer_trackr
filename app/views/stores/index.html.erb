@@ -3,6 +3,13 @@
   <% @stores.each do |store| %>
     <li>
       <%= store.name %>
+      <ul>
+        <% store.beers.each do |beer| %>
+          <li>
+            <%= beer.name %>
+          </li>
+        <% end %>
+      </ul>
     </li>
   <% end %>
 </ul>
