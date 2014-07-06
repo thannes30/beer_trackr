@@ -1,28 +1,5 @@
-== README
+Have you ever gone to a nearby liquor store hoping to purchase some of your favorite beer only to find out they don't carry ANY of them?
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Beer Trackr is an application I created using Rails 4 with Postregres database to keep track of which beer stores carry which brands, and styles of beer.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+ I created Beer Trackr to eliminate this. Users can submit liquor stores, and what beers they carry, so other users can check out what beers to expect when they go to that store. 
