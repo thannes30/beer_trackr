@@ -27,6 +27,7 @@ class BeersController < ApplicationController
   def show
     @beer = Beer.find(params[:id])
   end
+
   #                 PATCH  /stores/:store_id/beers/:id(.:format)      beers#update
 
   #                 PUT    /stores/:store_id/beers/:id(.:format)      beers#update
