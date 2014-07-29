@@ -2,4 +2,4 @@ Have you ever gone to a nearby liquor store hoping to purchase some of your favo
 
 Beer Trackr is an application I created using Rails 4 with Postregres database to keep track of which beer stores carry which brands, and styles of beer.
 
- I created Beer Trackr to eliminate this. Users can submit liquor stores, and what beers they carry, so other users can check out what beers to expect when they go to that store. 
+I created Beer Trackr to eliminate this. Users can submit liquor stores, and what beers they carry, so other users can check out what beers to expect when they go to that store. 
